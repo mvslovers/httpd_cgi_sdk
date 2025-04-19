@@ -23,7 +23,7 @@ cd httpd-cgi-sdk
 Include the SDK headers in your project or let your compiler use these `include` directory:
 
 ```bash
-gccmvs -I./include -o my_cgi_module my_cgi_module.c
+gccmvs -I{THIS_REPO_DIR}/inc -o my_cgi_module my_cgi_module.c
 ```
 
 ### Usage
